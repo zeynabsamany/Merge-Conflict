@@ -38,14 +38,14 @@ namespace MyApplication
             // 
             this.test2TextBox.Location = new System.Drawing.Point(130, 9);
             this.test2TextBox.Name = "test2TextBox";
-            this.test2TextBox.Size = new System.Drawing.Size(118, 22);
+            this.test2TextBox.Size = new System.Drawing.Size(503, 22);
             this.test2TextBox.TabIndex = 5;
             // 
             // test2Label
             // 
             this.test2Label.AutoSize = true;
             this.test2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.test2Label.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.test2Label.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.test2Label.Location = new System.Drawing.Point(12, 9);
             this.test2Label.Name = "test2Label";
             this.test2Label.Size = new System.Drawing.Size(112, 17);
@@ -54,11 +54,11 @@ namespace MyApplication
             // 
             // test2Button
             // 
-            this.test2Button.Location = new System.Drawing.Point(15, 53);
+            this.test2Button.Location = new System.Drawing.Point(130, 37);
             this.test2Button.Name = "test2Button";
             this.test2Button.Size = new System.Drawing.Size(109, 36);
             this.test2Button.TabIndex = 3;
-            this.test2Button.Text = "zeinab samani";
+            this.test2Button.Text = "click here";
             this.test2Button.UseVisualStyleBackColor = true;
             // 
             // Form06
@@ -70,7 +70,7 @@ namespace MyApplication
             this.Controls.Add(this.test2Label);
             this.Controls.Add(this.test2Button);
             this.Location = new System.Drawing.Point(0, 0);
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form06";
             this.ResumeLayout(false);
             this.PerformLayout();
